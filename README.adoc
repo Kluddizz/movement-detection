@@ -3,6 +3,14 @@
 :imagesdir: docs/images
 
 == Architektur
+Die Forschungsarbeit beschäftigt sich mit der Erkennung von Bewegungen in
+Echtzeit auf mobilen Geräten. Als Eingabe speist der Benutzer ein Video (z.B.
+Webcam oder Kamera eines Smartphones) in das System. Das Video wird dann
+mithilfe eines neuronalen Netzes, welches auf bewegliche Objekte (z.B. Schuhe,
+etc.) trainiert wird, analysiert. Die Ausgabe dieses Schrittes sind
+Bounding-Boxen aller Objekte, die als beweglich angenomment werden. Anschließend
+werden die Schwerpunkte dieser Objekte berechnet und als Positionen festgelegt.
+
 image::architecture.png[Architektur]
 
 == Hilfreiche Links
