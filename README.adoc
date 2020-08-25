@@ -1,7 +1,9 @@
 = Bewegungserkennung
+:data-uri:
+:imagesdir: docs/images
 
 == Architektur
-image:docs/images/architecture.png
+image::architecture.png[Architektur]
 
 == Hilfreiche Links
 * https://towardsdatascience.com/custom-object-detection-using-tensorflow-from-scratch-e61da2e10087[Custom Object Detection using Tensorflow from Scratch] (SSD, MobileNet)
