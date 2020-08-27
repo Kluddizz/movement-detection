@@ -1,0 +1,20 @@
+= Anforderungen an das Forschungsprojekt
+
+. [big]*Ausarbeitung und Analyse*
+.. Was ist You Only Look Once (YOLO)?
+.. Was ist Single Shot Detection (SSD)?
+.. Wie kann man die Netze auf die mobile Plattform übertragen?
+.. Welche Modelle können verwendet werden?
+.. Analyse und Erläuterung, warum wir welchen Ansatz wählen.
+
+. [big]*Entwicklung eines neuronalen Netzes*
+.. Erstellen von Trainingsdaten für Bewegungen
+.. Trainieren eines Machine-Learning-Modells zum Erkennen von beweglichen Objekten
+
+. [big]*Ziel der Forschungsarbeit*
+.. Erkennung von kontinuierlicher Bewegung
+.. oder klassifizieren einer Bewegung
+.. oder Berechnung der Frequenz einer Bewegung
+
+. [big]*Bevorstehende Probleme*
+.. Wie analysiert man die Bewegung mehrerer Objekte innerhalb eines Bildes?
