@@ -15,3 +15,22 @@ image::architecture.png[Architektur]
 
 == Hilfreiche Links
 * https://towardsdatascience.com/custom-object-detection-using-tensorflow-from-scratch-e61da2e10087[Custom Object Detection using Tensorflow from Scratch] (SSD, MobileNet)
+* https://blogs.sap.com/2018/07/25/object-detection-with-tensorflow-for-intelligent-enterprise/[Object Detection with Tensorflow(SSD) for Intelligent Enterprise] (Trainieren eines Schuh-Erkenners)
+
+== TODO
+
+*Ausarbeitung und Analyse*
+
+* [x] Was ist You-Only-Look-Once (YOLO)?
+* [x] Was ist Single-Shot-Detection (SSD)?
+* [ ] Wie kann man neuronale Netze auf eine mobile Plattform übertragen?
+* [ ] Welche Modelle können verwendet werden? (TensorFlow/MobileNet, Darknet/YOLO, ...)
+* [ ] Analyse und Erläuterung für die Wahl unseres Ansatzes.
+
+*Entwicklung*
+
+* [ ] Erstellen von Trainingsdaten für Kreisbewegungen.
+* [ ] Erstellen von Trainingsdaten für das Erkennen von Schuhe.
+* [ ] Erstellen eines Modells (tflite) zum Erkennen von beweglichen Objekten.
+* [ ] Erstellen eines Modells (tflite) zum Voraussagen von Umfang und Mittelpunkt einer Bewegung.
+* [ ] Erstellen eines Modells (tflite) zum Prüfen einer Kreisbewegung.
