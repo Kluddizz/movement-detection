@@ -1,0 +1,3 @@
+[submodule "example/movement-detection-test-app"]
+	path = example/movement-detection-test-app
+	url = https://github.com/Kluddizz/movement-detection-test-app
